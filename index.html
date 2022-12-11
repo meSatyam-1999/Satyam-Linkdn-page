@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Linkdn Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ----- navbar start ----- -->
+    <nav class="navbar">
+
+        <!-- ----- left navbar start ----- -->
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="linkdn logo"></a>
+            <div class="search-box">
+                <img src="images/search.png" alt="search image">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <!-- ----- left navbar end ----- -->
+
+        <!-- ----- center navbar start ----- -->
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png" alt="home"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png" alt="home"><span>My Networks</span></a></li>
+                <li><a href="#"><img src="images/jobs.png" alt="home"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png" alt="home"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png" alt="home"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <!-- ----- center navbar end ----- -->
+
+        <!-- ----- right navbar start ----- -->
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/satyam linkdn.jpg" alt="my image" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+            
+        </div>
+         <!-- ----- profile dropdown menu start ----- -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/satyam linkdn.jpg" alt="Satyam profile photo">
+                    <div>
+                        <h3>Satyam Singh</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png" alt="feedback image">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png" alt="setting image">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png" alt="help image">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png" alt="display image">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png" alt="logout image">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+        <!-- ----- profile dropdown menu end ----- -->
+
+
+
+        <!-- ----- right navbar end ----- -->
+    
+    </nav>
+   <!-- ----- navbar end ----- -->
+   
+   <div class="container">
+    <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+            <img src="images/satyam linkdn cover.jpg" alt="cover picture" width="100%">
+            <div class="sidebar-profile-info">
+                <img src="images/satyam linkdn.jpg" alt="user 1">
+                <h1>Satyam Singh</h1>
+                <h3>Web Developer at Coding Ninja Bootcamp</h3>
+                <ul>
+                    <li>Your profile views<span>462</span></li>
+                    <li>Your post views<span>320</span></li>
+                    <li>Your connections<span>485</span></li>
+                </ul>
+            </div>
+            <div class="sidebar-profile-link">
+                <a href="#"><img src="images/items.png" alt="items">My items</a>
+                <a href="#"><img src="images/premium.png" alt="items">Try Premium</a>
+            </div>
+        </div>
+        <div class="sidebar-activity" id="sidebarActivity">
+            <h3>RECENT</h3>
+            <a href="#"><img src="images/recent.png" alt="recent image"> Web Development </a>
+            <a href="#"><img src="images/recent.png" alt="recent image"> User Interface </a>
+            <a href="#"><img src="images/recent.png" alt="recent image"> Online Learning </a>
+            <a href="#"><img src="images/recent.png" alt="recent image"> Learn Online </a>
+            <a href="#"><img src="images/recent.png" alt="recent image"> Code Better </a>
+            <a href="#"><img src="images/recent.png" alt="recent image"> Group Learning </a>
+            <h3>GROUPS</h3>
+            <a href="#"><img src="images/group.png" alt="group image"> Web Design Group </a>
+            <a href="#"><img src="images/group.png" alt="group image"> HTML & CSS Group </a>
+            <a href="#"><img src="images/group.png" alt="group image"> JavaScript Group </a>
+            <a href="#"><img src="images/group.png" alt="group image"> Competative Programming Group </a>
+            <h3>HASHTAG</h3>
+            <a href="#"><img src="images/hashtag.png" alt="hashtag"> webdevelopment </a>
+            <a href="#"><img src="images/hashtag.png" alt="hashtag"> onlinelearning </a>
+            <a href="#"><img src="images/hashtag.png" alt="hashtag"> competativeprogramming </a>
+            <h3>MY RECENT CONNECTIONS</h3>
+            <a href="#"><img src="images/group.png" alt="friends">Bhagabati Prasad Praharaj</a>
+            <a href="#"><img src="images/group.png" alt="friends">Dhananjay Khandwal</a>
+            <a href="#"><img src="images/group.png" alt="friends">N Sridhar</a>
+            <a href="#"><img src="images/group.png" alt="friends">Mithlesh Kushwaha</a>
+            <a href="#"><img src="images/group.png" alt="friends">Kshitish Sandhibighraha</a>
+            <a href="#"><img src="images/group.png" alt="friends">Sanyasi Muni</a>
+            <div class="discover-more-link">
+                <a href="#">Discover More</a>
+            </div>
+        </div>
+        <p id="showMoreLink" onclick="toggleActivity">Show more <b>+</b></p>
+    </div>
+    <!-- ------ left sidebar end ----- -->
+
+    <!-- ------ main content start ----- -->
+    
+    <div class="main-content">
+        <div class="create-post">
+        <div class="create-post-input">
+            <img src="images/satyam linkdn.jpg" alt="my profile photo">
+            <textarea rows="2" placeholder="Write a post"></textarea>
+        </div>
+        <div class="create-post-links">
+            <li><img src="images/photo.png" alt="photo">Photo</li>
+            <li><img src="images/video.png" alt="photo">Video</li>
+            <li><img src="images/event.png" alt="photo">Event</li>
+            <li>Post</li>
+        </div>
+        </div>
+        <div class="sort-by">
+            <hr>
+            <p>Sort by: <span>top <img src="images/down-arrow.png"></span></p>
+        </div>
+
+        <!-- ----- first post start ----- -->
+        <div class="post">
+            <div class="post-author">
+                <img src="images/mukesh linkdn.jpg" alt="Mukesh">
+                <div>
+                    <h1>Mukesh Kumar Sahoo</h1>
+                    <small>Co-founder of Sahoo Counsultancy Services pvt Ltd. | CEO SCS,Bangalore</small>
+                    <small>1 hour ago</small>
+                </div>
+            </div>
+            
+            <p>Sahoo Consultancy Services is an Indian multinational information technology services and consulting company with its headquarters in Mumbai. It is a part of the Satyam Tech Group and operates in 150 locations across 46 countries. In July 2022, it was reported that SCS had over 600,000 employees worldwide.</p>
+            <img src="images/post img 1.jpg" alt="Mukesh post" width="100%">
+            <div class="post-stats">
+                <div>
+                    <img src="images/thumbsup.png" alt="thumbsup photo">
+                    <img src="images/love.png" alt="love photo">
+                    <img src="images/clap.png" alt="clap photo">
+                    <span class="liked-user">Dhananjay Khandwal and 21.4k others</span>
+                </div>
+                <div>
+                    <span>9.7k comments &middot; 4.5k shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div>
+                    <img src="images/satyam linkdn.jpg" alt="satyam image" class="post-activity-user-icon">
+                    <img src="images/down-arrow.png" alt="drop arrow image" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/like.png" alt="like image">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/comment.png" alt="like image">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/share.png" alt="like image">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/send.png" alt="like image">
+                    <span>Send</span>
+                </div>
+            </div>
+        
+        </div>
+        <!-- ----- first post end ----- -->
+        
+
+        <!-- ----- second post start ----- -->
+        <div class="post">
+            <div class="post-author">
+                <img src="images/bhagabati linkdn.jpg" alt="bhagabati">
+            <div>
+            <h1>Bhagabati Prasad Praharaj</h1>
+            <small>Founder and CEO at Chilika EcoService Resort | Main Investor</small>
+            <small>4 hours ago</small>
+            </div>
+        </div>
+        <p>Chilika EcoService resort is arguably Odisha’s first five-star Eco-resort. Tucked on shores of the pristine Chilika Lake – the largest lagoon on northern hemisphere – the resort is an ideal getaway for large conferences, weddings and holidaymakers. Guests can enjoy a sumptuous feast at two restaurants - Orana and Bean Hive - or opt for a rejuvenating spa treatment at Ekayaa. </p>
+        <img src="images/chilika resort 2.jpg" alt="chilika resort" width="100%">
+        <div class="post-stats">
+            <div>
+                <img src="images/thumbsup.png" alt="thumbsup photo">
+                <img src="images/love.png" alt="love photo">
+                <img src="images/clap.png" alt="clap photo">
+                <span class="liked-user">Dhananjay Khandwal and 3.4k others</span>
+            </div>
+            <div>
+                <span>756 comments &middot; 842 shares</span>
+            </div>
+        </div>
+        <div class="post-activity">
+            <div>
+                <img src="images/satyam linkdn.jpg" alt="satyam image" class="post-activity-user-icon">
+                <img src="images/down-arrow.png" alt="drop arrow image" class="post-activity-arrow-icon">
+            </div>
+            <div class="post-activity-link">
+                <img src="images/like.png" alt="like image">
+                <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+                <img src="images/comment.png" alt="like image">
+                <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+                <img src="images/share.png" alt="like image">
+                <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+                <img src="images/send.png" alt="like image">
+                <span>Send</span>
+            </div>
+        </div>
+
+    </div>
+    <!-- ----- second post end ----- -->
+
+    <!-- ----- Third post start ----- -->
+<div class="post">
+    <div class="post-author">
+        <img src="images/pandu linkdn.jpg" alt="Dhananjay">
+        <div>
+            <h1>Kshitish Sandhibighraha</h1>
+            <small>Author of "You're still the one" book | Owner</small>
+            <small>6 hours ago</small>
+        </div>
+    </div>
+    
+    <p>Do you want to capture your best memories in an enduring and artistic keepsake?
+        You can have your own love story book starting from your first date until the moment you say i'm ok.
+        The leading characters in your love story book are you and your significant other.
+        We look forward to hearing your inspiring stories!</p>
+    <img src="images/pandu post.webp" alt="Pandu post" width="100%">
+    <div class="post-stats">
+        <div>
+            <img src="images/thumbsup.png" alt="thumbsup photo">
+            <img src="images/love.png" alt="love photo">
+            <img src="images/clap.png" alt="clap photo">
+            <span class="liked-user">Bhagabati Prasad Praharaj and 2.2k others</span>
+        </div>
+        <div>
+            <span>1.1k comments &middot; 623 shares</span>
+        </div>
+    </div>
+    <div class="post-activity">
+        <div>
+            <img src="images/satyam linkdn.jpg" alt="satyam image" class="post-activity-user-icon">
+            <img src="images/down-arrow.png" alt="drop arrow image" class="post-activity-arrow-icon">
+        </div>
+        <div class="post-activity-link">
+            <img src="images/like.png" alt="like image">
+            <span>Like</span>
+        </div>
+        <div class="post-activity-link">
+            <img src="images/comment.png" alt="like image">
+            <span>Comment</span>
+        </div>
+        <div class="post-activity-link">
+            <img src="images/share.png" alt="like image">
+            <span>Share</span>
+        </div>
+        <div class="post-activity-link">
+            <img src="images/send.png" alt="like image">
+            <span>Send</span>
+        </div>
+    </div>
+
+</div>
+<!-- ----- Third post end ----- -->
+
+
+<!-- ----- Fourth post start ----- -->
+<div class="post">
+    <div class="post-author">
+        <img src="images/dhananjay linkdn.jpg" alt="Dhananjay">
+        <div>
+            <h1>Dhananjay Khandwal</h1>
+            <small>Motivational Speaker | Self Believer</small>
+            <small>19 hours ago</small>
+        </div>
+    </div>
+    
+    <p>All great things start with the decision to try. It is common for students to be distracted and lack concentration. If you are a student who’s constantly looking for motivation, you are not alone! Quite often, students need a push to study and it is totally okay to feel lazy and unmotivated. The point is to look around, get inspired, sideline the laziness, and jump right on track.</p>
+    <img src="images/dhananjay post.jpg" alt="dhananjay post" width="100%">
+    <div class="post-stats">
+        <div>
+            <img src="images/thumbsup.png" alt="thumbsup photo">
+            <img src="images/love.png" alt="love photo">
+            <img src="images/clap.png" alt="clap photo">
+            <span class="liked-user">Bhagabati Prasad Praharaj and 4.1k others</span>
+        </div>
+        <div>
+            <span>2.6k comments &middot; 1.8k shares</span>
+        </div>
+    </div>
+    <div class="post-activity">
+        <div>
+            <img src="images/satyam linkdn.jpg" alt="satyam image" class="post-activity-user-icon">
+            <img src="images/down-arrow.png" alt="drop arrow image" class="post-activity-arrow-icon">
+        </div>
+        <div class="post-activity-link">
+            <img src="images/like.png" alt="like image">
+            <span>Like</span>
+        </div>
+        <div class="post-activity-link">
+            <img src="images/comment.png" alt="like image">
+            <span>Comment</span>
+        </div>
+        <div class="post-activity-link">
+            <img src="images/share.png" alt="like image">
+            <span>Share</span>
+        </div>
+        <div class="post-activity-link">
+            <img src="images/send.png" alt="like image">
+            <span>Send</span>
+        </div>
+    </div>
+
+</div>
+<!-- ----- Fourth post end ----- -->
+
+
+
+    </div>
+
+
+    <!-- ------ main content end ----- -->
+
+     <!-- ------ right sidebar start ----- -->
+    <div class="right-sidebar">
+        <div class="sidebar-news">
+            <img src="images/more.png" alt="more icon" class="info-icon">
+            <h3>Trending News</h3>
+            <a href="#">3 tips for beginner programmers</a>
+            <span>12h ago &middot; 8,586 readers</span>
+
+            <a href="#">How to learn coding efficiently</a>
+            <span>22h ago &middot; 24,546 readers</span>
+
+            <a href="#">Best way to get interview ready</a>
+            <span>1d ago &middot; 55,524 readers</span>
+
+            <a href="#">Carrer growth in data science</a>
+            <span>1d12h ago &middot; 38,686 readers</span>
+
+            <a href="#">90 days roadmap to complete full stack developer</a>
+            <span>2d ago &middot; 85,475 readers</span>
+
+            <a href="#" class="read-more-link">Read More</a>
+        </div>
+        <div class="sidebar-ad">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p>Master the 5 principles of web development</p>
+            <div>
+                <img src="images/satyam linkdn.jpg" alt="my profile photo">
+                <img src="images/mi-logo.png" alt="logo photo">
+            </div>
+            <b>Best laptops for web development in xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+            <div class="copyright-msg">
+                <img src="images/logo.png" alt="logo image">
+                <p>Satyam Linkdn &#169; 2022. All right reserved to Mr.Satyam.</p>
+            </div>
+        </div>
+    </div>
+    <!-- ------ right sidebar end ----- -->
+   </div>
+
+<script>
+    let profileMenu = document.getElementById("profileMenu");
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu");
+    }
+</script>
+
+<script>
+    let sideActivity = document.getelementById("sidebarActivity");
+    let moreLink = document.getelementById("showMoreLink");
+
+    function toggleActivity(){
+        sideActivity.classList.toggle("open-activity");
+    }
+</script>
+
+
+</body>
+</html>

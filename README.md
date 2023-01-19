@@ -1,2 +1,2 @@
-# Satyam-Linkdn-page
-Satyam's linkdn page
+# Satyam-Linkedin-page
+Satyam's linkedin page
